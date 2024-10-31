@@ -1,37 +1,42 @@
 import styled from 'styled-components';
 
-export const LandContainer = styled.div`
+export const RectangleContainer = styled.div`
 display: flex;
 flex-direction: column;
 margin-left: 210px;
-margin-top: 10px;
 `;
 
-export const LandTextTitle = styled.div`
+export const RectangleTextTitle = styled.div`
 display: flex;
 font-size: ${(props) => props.theme.textSizes['text-regular-l']};
 `;
 
-export const LandTextContainer = styled.div`
+export const RectangleTextContainer = styled.div`
  display: flex;
  flex-direction: column;
  margin-top: 5px;
 `;
 
-export const LandText = styled.div`
+export const RectangleText = styled.div`
 display: flex;
 font-size: ${(props) => props.theme.textSizes['text-regular-m']};
 `;
 
-export const LandValuesContainer = styled.div`
+export const RectangleluesContainer = styled.div`
 display: flex;
 flex-direction: column;
-margin-left: 210px;
+//margin-left: 210px;
 margin-top: 10px;
 gap: 6px;
 `;
 
-export const GetLandWidth = styled.input`
+export const InputRectangleText = styled.div`
+display: flex;
+margin-top: 8px;
+font-size: ${(props) => props.theme.textSizes['text-regular-m']};
+`;
+
+export const GetRectangledData = styled.input`
 display: flex;
 margin-top: 3px;
 border-radius: 8px;
@@ -39,21 +44,14 @@ width: 80px;
 height: 30px;
 `
 
-export const InputLandText = styled.div`
-display: flex;
-margin-top: 8px;
-font-size: ${(props) => props.theme.textSizes['text-regular-m']};
-`;
-
-export const ResultLand = styled.div`
+export const ResultRectangled = styled.div`
 display: flex;
 flex-direction: column;
-margin-left: 210px;
 margin-top: 10px;
 
 `;
 
-export const ResultLandText = styled.div`
+export const ResultRectangledText = styled.div`
 display: flex;
 margin-top: 8px;
 font-size: ${(props) => props.theme.textSizes['text-regular-m']};

@@ -7,6 +7,7 @@ export function Sidebar() {
             <SideBarText>Exercícios</SideBarText>
             <SidebarButton to="/">Exercício 1</SidebarButton>
             <SidebarButton to="/exercicio2">Exercício 2</SidebarButton>
+            <SidebarButton to="/exercicio3">Exercício 3</SidebarButton>
         </SidebarContainer>
     );
 }

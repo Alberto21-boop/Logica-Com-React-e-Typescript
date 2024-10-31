@@ -1,5 +1,16 @@
 import { useEffect, useState } from 'react';
-import { ButtonConfirm, GetLandWidth, InputLandText, LandContainer, LandText, LandTextContainer, LandTextTitle, LandValuesContainer, ResultLand, ResultLandText } from './styles';
+import {
+    GetLandWidth,
+    InputLandText,
+    LandContainer,
+    LandText,
+    LandTextContainer,
+    LandTextTitle,
+    LandValuesContainer,
+    ResultLand,
+    ResultLandText
+}
+    from './styles';
 
 export function Terreno() {
     // Mantém os estados de entrada como string
