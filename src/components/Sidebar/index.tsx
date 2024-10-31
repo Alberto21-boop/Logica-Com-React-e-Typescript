@@ -5,11 +5,12 @@ export function Sidebar() {
     return (
         <SidebarContainer>
             <SideBarText>Exercícios</SideBarText>
-            <SidebarButton to="/">Exercício 1</SidebarButton>
-            <SidebarButton to="/exercicio2">Exercício 2</SidebarButton>
-            <SidebarButton to="/exercicio3">Exercício 3</SidebarButton>
-            <SidebarButton to="/exercicio4">Exercício 4</SidebarButton>
-            <SidebarButton to="/exercicio4botao">Exercício 4 Botão</SidebarButton>
+            <SidebarButton to="/">Problema Expressões</SidebarButton>
+            <SidebarButton to="/exercicio2">Problema Terreno</SidebarButton>
+            <SidebarButton to="/exercicio3">Problema Retângulo</SidebarButton>
+            <SidebarButton to="/exercicio4">Problema idades</SidebarButton>
+            <SidebarButton to="/exercicio4botao">Idades Botão</SidebarButton>
+            <SidebarButton to="/exercicio5">Problema Soma</SidebarButton>
         </SidebarContainer>
     );
 }

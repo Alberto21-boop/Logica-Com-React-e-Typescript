@@ -5,6 +5,7 @@ import { Terreno } from './components/Terreno';
 import { Retangulo } from './components/Retangulo';
 import { Idades } from './components/Idade';
 import { IdadeComBotao } from './components/IdadeComBotao';
+import { Soma } from './components/Soma';
 
 
 export function Router() {
@@ -16,6 +17,7 @@ export function Router() {
                 <Route path='/exercicio3' element={<Retangulo />} />
                 <Route path='/exercicio4' element={<Idades />} />
                 <Route path='/exercicio4botao' element={<IdadeComBotao />} />
+                <Route path='/exercicio5' element={<Soma />} />
             </Route>
         </Routes>
     );
