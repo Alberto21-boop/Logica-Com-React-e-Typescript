@@ -3,6 +3,7 @@ import { Expressao } from './components/Expressao';
 import { DefaultLayout } from './layouts/DefaultLayout';
 import { Terreno } from './components/Terreno';
 import { Retangulo } from './components/Retangulo';
+import { Idades } from './components/Idade';
 
 
 export function Router() {
@@ -12,6 +13,7 @@ export function Router() {
                 <Route path="/" element={<Expressao />} />
                 <Route path="/exercicio2" element={<Terreno />} />
                 <Route path='/exercicio3' element={<Retangulo />} />
+                <Route path='/exercicio4' element={<Idades />} />
             </Route>
         </Routes>
     );
